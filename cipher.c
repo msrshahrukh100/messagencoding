@@ -84,7 +84,7 @@ int main()
 		if(store[0][n] = pw[t])
 		{
 		for(i=0;i<x+1;i++)
-			printf("%c",store[n][i]);
+			printf("%c",store[i][n]);
 		printf("\n");
 		t++;
 		}
@@ -93,5 +93,5 @@ int main()
 
 
 
-	return 0;
+	
 }
