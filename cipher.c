@@ -22,7 +22,6 @@ void sort()
 
 
 
-
 int main()
 {
 	
@@ -76,22 +75,14 @@ int main()
 
 	int t = 0;
 
-	while(t < l)
+	for(i=0;i<l;i++)
 	{
-
-		for(n=0;n<l;n++)
+		for(j=0;j<l;j++)
 		{
-		if(store[0][n] = pw[t])
-		{
-		for(i=0;i<x+1;i++)
-			printf("%c",store[i][n]);
-		printf("\n");
-		t++;
-		}
+			if(pw[i] == store[0][j])
+				for(k=0;k<x+1;k++)
+					printf("%c", store[k][j]); 
 		}
 	}
-
-
-
-	
+	printf("\n");
 }
